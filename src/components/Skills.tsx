@@ -1,5 +1,4 @@
-
-import { Code, Database, Cloud, Tool } from 'lucide-react';
+import { Code, Database, Cloud, Wrench } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -11,7 +10,7 @@ const Skills = () => {
     },
     {
       title: "Frameworks",
-      icon: Tool,
+      icon: Wrench,
       skills: ["Node.js", "FastAPI", "Flask", "Angular", "Ionic Framework"],
       color: "from-purple-500 to-pink-500"
     },
