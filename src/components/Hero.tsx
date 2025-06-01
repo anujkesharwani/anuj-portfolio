@@ -1,4 +1,3 @@
-
 import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 
 const Hero = () => {
@@ -14,8 +13,9 @@ const Hero = () => {
       <div className="max-w-4xl mx-auto text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-              Anuj Kesharwani
+            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent relative">
+              <span className="typing-animation">Anuj Kesharwani</span>
+              <span className="typing-cursor">|</span>
             </span>
           </h1>
           
