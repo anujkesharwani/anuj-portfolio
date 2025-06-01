@@ -49,7 +49,7 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-slate-300">Experience</span>
-                  <span className="text-purple-400 font-semibold">2+ Years</span>
+                  <span className="text-purple-400 font-semibold">1+ Years</span>
                 </div>
                 
                 <div className="flex justify-between items-center">
